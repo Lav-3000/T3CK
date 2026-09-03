@@ -21,6 +21,6 @@ t3ck.save_to("path/to/file.t3ck")
 to load a t3ck:
 ```gdscript
 var t3ck = T3CK.get_from("path/to/file.t3ck")
-print(t3ck.get_kv("key")) #value
-print(t3ck.get_kv("key2")) #value2
+print(t3ck.get_value("key")) #value
+print(t3ck.get_value("key2")) #value2
 ```
