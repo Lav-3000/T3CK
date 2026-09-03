@@ -5,7 +5,7 @@ T3CK stands for 'Thingy3000 Controlled Key-values', due to the fact it was made 
 
 it uses pascal strings to work as key-value pairs.
 
-copy `t3ck.gd` into any Godot project and keep the license to use it.
+copy `t3ck.gd` into any Godot project and keep the comment containing the MIT license to use it.
 
 ## Usage (in any script)
 
