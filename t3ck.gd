@@ -31,15 +31,17 @@ func add_kv(key: String, value: String) -> void:
 	_dict[key] = value
 
 
-func get_kv(key: String, default := "") -> String:
-	if has_kv(key):
+func get_value(key: String, default := "") -> String:
+	if has_value(key):
 		return _dict[key]
 	return default
+
 
 func get_keys() -> PackedStringArray:
 	return _dict.keys()
 
-func has_kv(key: String) -> bool:
+
+func has_value(key: String) -> bool:
 	return _dict.has(key)
 
 
